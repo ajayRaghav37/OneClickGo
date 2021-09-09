@@ -1,0 +1,37 @@
+Welcome to the Source Code for OneClick Go! 2.x
+
+Follow these steps to edit the source code of OneClick Go!
+
+1. IT IS HIGHLY RECOMMENDED TO  INSTALL ONECLICK GO! ON THE MACHINE BEFORE EDITING THE SOURCE CODE.
+1. (Alternative) If you do not want to install OCG, then you must copy all the files from '\Source Code\Setup Files\System Files' to your 'Windows\System32' directory. After that, register those dll(s), ocx(s) and tlb(s) manually. To register a dll or ocx, write the following command in Command Prompt:
+
+	regsvr32 <path & filename of dll or ocx>
+
+To register the tlb (Legacy TypeLib), you need regtlibv12.exe that is located in the 'Windows\Microsoft.NET\Framework\v4.x.xxxx' folder. Using that executable you can successfully register the legacy typelib (.tlb).
+
+2. You need at least one of the mentioned software on the computer before editing the source code:
+	Visual Basic 6 (For Program Development and Creating fresh executable)
+	Microsoft Office PowerPoint 2010 (For Visual Interface development)
+	Inno Setup Compiler 5.x (For Setup development)
+	An Icon Editor Program like Greenfish Icon Editor Professional 2 (For Icon Development)
+
+3.	(a) Program Development and Creating fresh executable
+
+Browse to the folder '\Source Code\Program Files' and open the Visual Basic Project Files (.vbp) named 'OneClick Go!'. [If you get an error while opening the project, then please Contact Us and tell us the error you see.] Take your time and figure out the piece of code that you want to modify. Perform the modification and test the program by making the fresh executable. After debugging and commenting (optional), save the project and all the related files.
+
+	(b) Visual Interface development
+
+Browse to the folder '\Source Code\Visual Interface' and open the 'Icons and Skins.pptx' PowerPoint presentation file. Make desired modifications and save the file or save components as image files.
+
+	(c) Setup development
+
+Browse to the folder '\Source Code\Setup Files' and open the Inno Setup Script file (.iss). Replace all E:\OneClick Go! 2.x by the location of the OneClick Go! source in your computer. Make necessary modifications in the script and save the script file and compile (optional).
+
+	(d) Icon development
+
+Browse to the folder '\Source Code\Visual Interface' and open any .ICO file to edit. Alternatively, open 'Icons And Skins.pptx' and create a new slide to create your own new icon. Save the graphic as image and then use any Icon editor to open that image and later save it as an icon.
+
+4. If you've done modifications that can be somehow implemented in the program to be used by everyone, then do send us the modified files. Please do not forget to mention your modifications in the message.
+
+Happy Developing,
+Thanks from OneClick Go! Team.

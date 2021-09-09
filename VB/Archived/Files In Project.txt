@@ -1,0 +1,77 @@
+FILES IN PROJECT
+————————————
+
+Path\Filename							[Additional Info] Use of that file
+————————————————————————————		—————————————————————————————————————
+OneClick Go!							main directory for the project
+	\Files In Project.txt						[this file] to see the list of all files present in the project
+	\Instructions.pdf						to view instructions for installing OneClick Go! and for its first run
+	\Objectives.pdf						to view objectives of OneClick Go!
+	\OneClick_Go_Final_Release_Setup.exe			[setup file] to install OneClick Go! on client machine
+	\Req.pdf							to view Minimum System Requirements for running/developing OneClick Go!
+	\Source Code						directory for source code
+		\Program Files					directory for source code of program files
+			\AboutWin.frm				visual basic form file for about window of OCG
+			\AboutWin.frx				visual basic form binary file that contains files used in the form AboutWin.frm
+			\Initializer.bas				module containing functions and procedures used in the program
+			\OneClick Go!.exe				program's executable file
+			\OneClick Go!.vbp				visual basic project file for the OCG
+			\OneClick Go!.vbw				visual basic workspace file for the project
+			\OneClickGo.frm				visual basic form file for main window of OCG
+			\OneClickGo.frx				visual basic form binary file that contains files used in the form OneClickGo.frm
+			\RenameMusic.frm				visual basic form file for rename music window of OCG
+			\RenameMusic.frx				visual basic form binary file that contains files used in the form RenameMusic.frm
+			\SendMusic.frm				visual basic form file for send music window of OCG
+			\SendMusic.frx				visual basic form binary file that contains files used in the form SendMusic.frm
+			\SkinnedOCG.frm				visual basic form file for rockstar gold skin of OCG
+			\SkinnedOCG.frx				visual basic form binary file that contains files used in the form SkinnedOCG.frm
+			\SkinnedOCG2.frm				visual basic form file for freezed blue skin of OCG
+			\SkinnedOCG2.frx				visual basic form binary file that contains files used in the form SkinnedOCG2.frm
+			\Documents				directory for documents in OCG
+				\END~AGREEMENT.rtf		rich text file containing the end user license
+				\Help.pdf				the help file for OneClick Go!
+			\Skin					directory for images used in skins
+				\NextPressedPause.bmp		[freezed blue] situation when the song is playing and the user press next
+				\NextPressedPlay.bmp		[freezed blue] situation when the song is paused/stopped and the user press next
+				\NPSback.bmp			[freezed blue] background image of the Now Playing info box
+				\NPSback1.bmp			[freezed blue] right hand side blocker of Now Playing text
+				\NPSback2.bmp			[freezed blue] left hand side blocker of Now Playing text
+				\NPSBlockerL.bmp			[rockstar gold] left hand side blocker of Now Playing text
+				\NPSBlockerR.bmp		[rockstar gold] right hand side blocker of Now Playing text
+				\PauseDefault.bmp			[freezed blue] default view when the song is playing
+				\PausePressed.bmp		[freezed blue] situation when pause button is pressed
+				\PlayDefault.bmp			[freezed blue] default view when the song is paused/stopped
+				\PlayPauseADefault.bmp		[rockstar gold] default view when the song is playing
+				\PlayPauseAPressed.bmp		[rockstar gold] situation when pause button is pressed
+				\PlayPauseLDefault.bmp		[rockstar gold] default view when the song is paused/stopped
+				\PlayPauseLPressed.bmp		[rockstar gold] situation when play button is pressed
+				\PlayPressed.bmp			[freezed blue] situation when play button is pressed
+				\PrevNextDefault.bmp		[rockstar gold] image for previous and next buttons
+				\PrevNextNPressed.bmp		[rockstar gold] situation when next button is pressed
+				\PrevNextPPressed.bmp		[rockstar gold] situation when previous button is pressed
+				\PrevPressedPause.bmp		[freezed blue] situation when previous button is pressed and song is playing
+				\PrevPressedPlay.bmp		[freezed blue] situation when previous button is pressed and song is paused/stopped
+				\StopDefault.bmp			[rockstar gold] image for stop button and the upper panel
+				\StopPressed.bmp			[rockstar gold] situation when stop button is pressed
+				\StopPressedPause.bmp		[freezed blue] situation when stop button is pressed and song is playing
+				\StopPressedPlay.bmp		[freezed blue] situation when stop button is pressed and song is paused/stopped
+		\Setup Files					directory for source code of setup files
+			\OCG_SetUp.iss				Inno setup script for installer of OneClick Go!
+			\System Files				directory for Setup system files
+				\asycfilt.dll			dynamic link library required to use VB applications
+				\comcat.dll			dynamic link library required to use VB applications
+				\COMDLG32.OCX			activeX control from common dialog box
+				\MCLHotkey.OCX			activeX control for hotkeys functionality
+				\msvbvm60.dll			microsoft visual basic virtual machine library
+				\oleaut32.dll			object linking and embedding automation library
+				\olepro32.dll			object linking and embedding automation library
+				\stdole2.tlb			useful for loading alpha blending effects and certain more UI effects
+		\Visual Interface					directory for source files used to create images and icons
+			\Help.pptx				[save as PDF to commit changes] PowerPoint presentation used to create help file
+			\Icons and Skins.pptx			[save a graphic as Device Independent Bitmap to commit changes] PowerPoint presentation used to generate icons and skin images
+			\OneClick Go!.ico				icon for setup and main window of OCG
+			\Send Music.ico				icon for Send Music window in OCG
+			\Skin Mode.ico				icon for Skin modes in OCG
+
+—————————————————
+END OF FILE
